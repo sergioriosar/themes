@@ -1,0 +1,49 @@
+/*
+Theme Name: Mi Bootstrap Theme
+Theme URI: http://tusitio.com
+Author: Tu Nombre
+Author URI: http://tusitio.com
+Description: Un theme personalizado basado en Bootstrap.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: mi-bootstrap-theme
+*/
+.post, .page {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.post-thumbnail {
+    margin-bottom: 15px;
+}
+
+.post-title, .page-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.post-excerpt {
+    font-size: 16px;
+    color: #666;
+}
+
+.post-content, .page-content {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.btn-primary {
+    background-color: #219f64;
+    border-color: #1a5e46;
+}
+.custom-logo {
+    max-height: 80px; /* Ajusta la altura máxima del logo */
+    width: auto;     /* Mantén la proporción del logo */
+}
+
+.custom-logo-link {
+    display: inline-block;
+    max-width: 100%;
+}
